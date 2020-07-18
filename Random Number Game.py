@@ -33,7 +33,8 @@ if(st.lower()=='yes'):
 
     while(score>0): #loop runs till score is greater than 0 
         time.sleep(1) 
-        n=int(input("Enter the number less than " ,e ,": "))
+        print("Enter the number less than " ,e ,": ")
+        n=int(input())
         if(n>x):
             print("Oops! try a smaller number")
             score-=2 #negative 2 score for wrong answer
