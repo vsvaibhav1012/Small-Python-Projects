@@ -13,15 +13,14 @@ def nearby(a):
     print("Number in nearest to 5 : ",y )
 
 def divs(b):  
-    ls=[]
     print("*****        HINT 2        *****")     #checks divisiblity
+    print("\nNumber is divisible by : \n")
     for i in range (2,6):
         if(b%i==0):
-            ls.append(i)
+            print(i,"\n")
         else:
             continue
-    print("\nNumber is divisible by : \n")
-    print(*ls,sep="\n")
+ 
 
 
 print("               Welcome to Our Game ..     ")
